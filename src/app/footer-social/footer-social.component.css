@@ -1,0 +1,35 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.pata {
+    display: flex;
+    width: 100%;
+    height: 15em;
+    align-items: center;
+    justify-content: center;
+    background-color: #fda0cf;
+    background-image: linear-gradient(to top, #fda0cf, #ffb4da, #facae2, #ffffff);
+}
+
+.icons {
+    display: flex;
+    width: 10%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+img{
+    max-width: 2.5em;
+    max-height: 2.5em;
+}
+
+img:hover {animation: rotate 3s infinite;}
+@keyframes pulse {
+    0%, 100% {transform: scale(1);}
+    50% {transform: scale(1.2); }    
+}
